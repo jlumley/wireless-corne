@@ -1,22 +1,22 @@
 manifest:
   remotes:
+    - name: m165437 #new entry
+      url-base: https://github.com/M165437 #new entry
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
       # Additional modules containing boards/shields/custom code can be listed here as well.
       # See:
       # - https://zmk.dev/docs/features/modules
       # - https://docs.zephyrproject.org/3.5.0/develop/west/manifest.html#projects
-    - name: m165437 #new entry
-      url-base: https://github.com/M165437 #new entry
   projects:
+    - name: nice-view-gem
+      remote: m165437
+      revision: main
     - name: eyelash_corne
       url: https://github.com/a741725193/zmk-new_corne
       revision: main
     - name: zmk
       remote: zmkfirmware
-      revision: main
-    - name: nice-view-gem
-      remote: m165437
       revision: main
   self:
     path: config
