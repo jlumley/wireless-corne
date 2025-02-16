@@ -22,7 +22,7 @@
 
 #define ZMK_MOUSE_DEFAULT_MOVE_VAL 1200  // 600
 #define ZMK_MOUSE_DEFAULT_SCRL_VAL 20    // 10
-#define TAPPING_TERM 300
+#define U_TAPPING_TERM 300
 
 / {
     behaviors {
