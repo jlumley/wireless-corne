@@ -1,3 +1,4 @@
+layout: {zmk_keyboard: eyelash_corne}
 layers:
   QWERTY:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
